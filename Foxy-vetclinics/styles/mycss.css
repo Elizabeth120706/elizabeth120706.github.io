@@ -83,6 +83,10 @@ body{
 }
 footer{
   background-color: #1e4c9b;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 .medialinks{
   margin-top: 20px;
