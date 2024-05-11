@@ -11,11 +11,17 @@ overflow-wrap: break-word;
   margin-left: 40%;
 }
 }
+html{
+  height: 100%;
+}
+
 body{
   font-family:Montserrat, serif;
   font-style: italic;
   background-color:  #e9f7fa;
-
+min-height: 100%;
+display: grid;
+grid-template-rows: auto 1fr auto;
 }
 .navbar-nav .nav-link.active {
     color: #ed721a;
@@ -83,10 +89,6 @@ body{
 }
 footer{
   background-color: #1e4c9b;
-  position:absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
 }
 .medialinks{
   margin-top: 20px;
