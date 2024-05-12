@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=font-family:Montserrat&display=swap');
+@media (max-width: 760px) {
+li{
+font-size:x-small;
+overflow-wrap: break-word;
+}
+  .carousel-indicators{
+    display: none;
+  }
+.time{
+  margin-left: 40%;
+}
+}
+html{
+  height: 100%;
+}
+
+body{
+  font-family:Montserrat, serif;
+  font-style: italic;
+  background-color:  #e9f7fa;
+min-height: 100%;
+display: grid;
+grid-template-rows: auto 1fr auto;
+}
+header {
+  background-color: white;
+  position: fixed; 
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+section{
+  padding-top: 80px;
+  min-height: 650px;
+}
+.navbar-nav .nav-link.active {
+    color: #ed721a;
+    font-size: larger;
+    font-weight: 700;
+} 
+.navbar-brand img{
+  width: 36mm;
+} 
+.card{
+  box-shadow: 8px 8px 27px 0px #6c6c6c;
+}
+.nav-link{
+  font-size: larger;
+} 
+.navbar-toggler{
+  background-color:  #fe6a00b9;
+
+} 
+.navbar-toggler-icon {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.btn {
+  margin-top: 2;
+  border-color: #1e4c9b;
+  background-color: #1e4c9b;
+}  
+.btn-primary{
+  --bs-btn-hover-bg: #ed721a;
+  --bs-btn-hover-border-color: #ed721a;
+}
+.card-title{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.name{
+    width: 25%;
+}
+.amount{
+  width: 25%;
+}
+.price{
+  width: 15%;
+}
+.about{
+  width: 35%;
+}
+.list-group-item{
+  border-color: black;
+}
+.toptable{
+  background-color: #1e4c9b;
+  text-transform: white;
+}
+.table{
+  box-shadow: 8px 8px 27px 0px #6c6c6c;
+}
+.slidetext{
+  color: black;
+  margin: auto auto;
+}
+.footer-text{
+  color: white;
+  margin: auto auto;
+}
+footer{
+  background-color: #0b928b;
+  width: 102%;
+}
+.medialinks{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.call-animation{
+  animation: call 4s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+.mainscreen{
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  
+}
+.mainscreen img{
+  animation: myAnim 2s ease 0s 1 normal forwards;
+  height: 60vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+@keyframes myAnim {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+.cont-card{
+  background-color: white;
+}
+
+li{
+  overflow-wrap: break-word;
+}
